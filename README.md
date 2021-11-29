@@ -205,34 +205,25 @@ Here is an example that shows how to use `rriScan` to identify N6-methyladenosin
 The available options of rriScan are as follow:
 
 ```shell
-Usage: rriScan [options] --fa <genome file> --fai <genome fai> --bam <mapped alignments>
+Usage:  rriScan [options] --fa <fasta file> --fai <fai file> --bam <mapped alignments> --jun <junctions>
+File format for mapped alignments is BAM
 [options]
-  -v, --verbose                   : verbose information
-  -V, --version                   : rriScan version
-  -h, --help                      : help informations
-  -R, --PCR                       : remove pcr duplictions [default is not removed]
-  -e, --rm                        : remove the muations in start or end sites [default is not removed]
-  --fa <string>                   : genome file with FASTA format
-  --fai <string>                  : genome fai file with FAI format
-  --bam <string>                  : alignments file with BAM format
-  -o, --outdir <string>           : output dir
-  -P, --prefix <string>           : prefix for output files
-  -s, --transcriptome <int>       : transcriptome size [e.g. in human, default=129600000]
-  -T, --cvs <string>              : conversion string [e.g. TC in PAR-CLIP, CT in miCLIP]
-  -c, --min-peak-len <int>        : minimum length for a peak [default>=10]
-  -i, --min-read-len <int>        : minimum read length [default>=10]
-  -a, --max-read-len <int>        : maximum read length [default<=5000000]
-  -n, --min-read-num <double>     : minimum number of reads for calling a peak [Default=1]
-  -L, --max-locus-num <int>       : maximum locus number of reads for mapping to genome [Default=20]
-  -H, --min-height <double>       : minimum read height for calling a site [Default=5]
-  -r, --rpm <double>              : minimum rpm height for calling a site [Default=0.01]
-  -d, --min-var <double>          : minimum read number for calling a variational site [Default=1]
-  -p, --pval <double>             : minimum p value for calling a site [Default<=0.05]
-  -q, --qval <double>             : minimum q value for calling a site [Default<=0.05]
-  --primer<string>                : primer sequene for removing the mispriming [default=NULL]
-  -u, --brc-len<int>              : barcode length. extend the barcode length for mispriming [default=0]
-  -s, --min-ratio<double>         : minimum ratio for variation [default>=0]
-  -S, --max-ratio<double>         : maximum ratio for variation [default<=1.0]
+-v/--verbose                   : verbose information
+-V/--version                   : rriScan version
+-h/--help                      : help informations
+-S/--small                     : small genome
+--fa                           : genome FASTA file.[required]
+--fai                          : genome fai file, an index file for fasta file.[required]
+--bam                          : alignment file, BAM format.[required]
+--jun                          : junction file from STAR software, junction format.[required]
+--read                         : read file[fastq or fasta].[optional]
+-o/--output <string>           : output file
+-l/--min-seg-len <int>         : minimum length of segments in a chimera [default>=15]
+-m/--min-read-number <int>     : minimum read number for chimera [default>=1]
+-M/--max-mfe <double>          : maximum MFE in duplex[default<=-5.0]
+-p/--min-pair <int>            : minimum pair number in duplex [default>=0]
+-s/--min-score <int>           : minimum alignment score in duplex [default>=5]
+-g/--min-gap <int>             : minimum gaps between two segments [default>=1]
 ```
 
 # Acknowledgements
