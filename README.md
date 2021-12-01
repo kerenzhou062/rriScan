@@ -45,10 +45,34 @@ Here, we describe the RNA-RNA Interaction Scan (rriScan), an universal software 
 # Output
 Here's the description of columns in the outputs:
 
-| Column name      | Description
-| -----------      |----------
-| `chrom`          | chromosome name
-
+| Column name          | Description
+| -----------          |----------
+| `lChrom`             | chromosome name of left pair
+| `lChromStart`        | start coordinate of left pair (0-base)
+| `lChromEnd`          | end coordinate of left pair
+| `lName`              | name of left pair
+| `lScore`             | score of left pair
+| `lStrand`            | strand of left pair
+| `rChrom`             | chromosome name of right pair
+| `rChromStart`        | start coordinate of right pair (0-base)
+| `rChromEnd`          | end coordinate of right pair
+| `rName`              | name of right pair
+| `rScore`             | score of right pair
+| `rStrand`            | strand of right pair
+| `lociNum`            | chromosome name
+| `gapDist`            | gap distance between pairs if they are in the same chromosome
+| `readSeq`            | sequencing reads
+| `chimericSeq`        | full sequence of the chimeric
+| `chimericStruct`     | predict structure of chimeric
+| `MFE`                | minimum free energy
+| `rriType`            | type of RNA-RNA interaction
+| `lAlignSeq`          | aligned sequence of left pair
+| `pairs`              | base pairings
+| `rAlignSeq`          | aligned sequence of right pair
+| `pairNum`            | the maximum continuous perfect pairings
+| `alignScore`         | Smith-Waterman score
+| `loReadNum`          | read number of left pair
+| `roReadNum`          | read number of right pair
 
 # Basic Usage
 The available options of rriScan are as follow:
