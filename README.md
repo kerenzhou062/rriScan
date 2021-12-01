@@ -1,5 +1,5 @@
 # rriScan
-Here, we describe the RNA-Binding Site Seeker (rriScan), An universal software for analyzing RNA-RNA interactome sequencing data, such as `MARIO`, `PARIS`, `PARIS2` and `LIGR-seq` data.
+Here, we describe the RNA-RNA Interaction Scan (rriScan), an universal software for analyzing RNA-RNA interactome sequencing data, such as `MARIO`, `PARIS`, `PARIS2` and `LIGR-seq` data.
 
 - [rriScan](#rriScan)
 - [Installation](#Installation)
