@@ -108,7 +108,7 @@ File format for mapped alignments is BAM
 ```
 
 # Run rriScan on testing dataset
-Please [check here](test_data/README.md) to see how to run rriScan on a testing dataset.
+Please [check here](test_data/README.md) to learn how to run rriScan on a testing dataset.
 
 # Acknowledgements
 Thanks a lot to everyone who contributed to the public codes and libraries (e.g. BamTools) used by rriScan.
