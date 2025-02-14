@@ -12,8 +12,8 @@ Download the testing datasets to your local folder.
     # suppose your path to run rriScan is ./rriScan_test
     mkdir ./rriScan_test
     cd ./rriScan_test
-    wget 'rriScan.test.bam'
-    wget 'rriScan.test.bam.bai'
+    wget 'https://rnasysu.com/encori/software_test/rriScan.test.bam'
+    wget 'https://rnasysu.com/encori/software_test/rriScan.test.bam.bai'
     ```
 
 # Run
