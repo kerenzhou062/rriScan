@@ -6,8 +6,7 @@ Here, we describe how to run rriScan on the testing datasets
 - [Output](#Output)
 
 # Downloading
-Download the testing datasets to your local folder.
-
+* Download the testing datasets to your local folder.
     ```bash
     # suppose your path to run rriScan is ./rriScan_test
     mkdir ./rriScan_test
@@ -24,7 +23,7 @@ Download the testing datasets to your local folder.
     ```
 
 # Output
-The results should be the same with `SRR2814763.junction.rriScan.txt`.
+* The results should be the same with `SRR2814763.junction.rriScan.txt`.
 
     ```bash
     # suppose your path to run rriScan is ./rriScan_test
