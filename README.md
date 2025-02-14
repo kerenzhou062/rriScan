@@ -1,17 +1,17 @@
 # Overview
 Here, we describe the RNA-RNA Interaction Scan (rriScan), an universal software for analyzing RNA-RNA interactome sequencing data, such as `MARIO`, `PARIS`, `PARIS2` and `LIGR-seq` data.
 
-- [System](#System-Requirements)
-- [Run](#Run-time)
+- [System requirements](#System-Requirements)
+- [Run time](#Run-time)
 - [Installation](#Installation)
 - [Input](#Input)
 - [Output](#Output)
 - [Basic usage](#Basic-usage)
-- [Test](#Run-rriScan-on-testing-dataset)
+- [Run rriScan on testing dataset](#Run-rriScan-on-testing-dataset)
 - [Acknowledgements](#Acknowledgements)
 - [Contact](#Contact)
 
-# System Requirements
+# System requirements
 The software package was tested on Linux system with RAM 15GB and CPU:20+ cores.
 
 # Run time
