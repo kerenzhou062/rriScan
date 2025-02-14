@@ -1,11 +1,13 @@
 # Overview
 Here, we describe the RNA-RNA Interaction Scan (rriScan), an universal software for analyzing RNA-RNA interactome sequencing data, such as `MARIO`, `PARIS`, `PARIS2` and `LIGR-seq` data.
 
-- [rriScan](#rriScan)
+- [System](#System-Requirements)
+- [Run](#Run-time)
 - [Installation](#Installation)
 - [Input](#Input)
 - [Output](#Output)
 - [Basic usage](#Basic-usage)
+- [Test](#Run-rriScan-on-testing-dataset)
 - [Acknowledgements](#Acknowledgements)
 - [Contact](#Contact)
 
@@ -104,6 +106,9 @@ File format for mapped alignments is BAM
 -s/--min-score <int>           : minimum alignment score in duplex [default>=5]
 -g/--min-gap <int>             : minimum gaps between two segments [default>=1]
 ```
+
+# Run rriScan on testing dataset
+Please [check here](test_data/README.md) to see how to run rriScan on a testing dataset.
 
 # Acknowledgements
 Thanks a lot to everyone who contributed to the public codes and libraries (e.g. BamTools) used by rriScan.
