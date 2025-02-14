@@ -1,4 +1,4 @@
-# run rriScan on testing CLIP datasets
+# run rriScan on testing example RNA-RNA interactome sequencing datasets
 Here, we describe how to run rriScan on the testing datasets
 
 - [download](#Downloading)
