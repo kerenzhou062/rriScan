@@ -20,7 +20,7 @@ Download the testing datasets to your local folder.
 # Run
 * It's very easy to run rriScan on testing dataset. Supposed `rriScan` has been added to you `PATH` environment and the `hg38.fa` and `hg38.fa.fai` have been generated.
     ```bash
-    rriScan --fa hg38.fa --fai hg38.fa.fai --bam SRR2814763.EndToEnd.STAR.Aligned.out.bam --jun SRR2814763.EndToEnd.STAR.Chimeric.out.junction --read SRR2814763.cutBarcode.cutadapt.fq.gz > ./test.junction.rriScan.txt
+    rriScan --fa hg38.fa --fai hg38.fa.fai --bam SRR2814763.EndToEnd.STAR.Aligned.out.bam --jun SRR2814763.EndToEnd.STAR.Chimeric.out.junction --read SRR2814763.cutBarcode.cutadapt.fq.gz > ./SRR2814763.junction.rriScan.txt
     ```
 
 # Output
@@ -28,6 +28,8 @@ The results should be the same with `SRR2814763.junction.rriScan.txt`.
 
     ```bash
     # suppose your path to run rriScan is ./rriScan_test
+    mkdir validate_results
+    cd validate_results
     wget 'https://rnasysu.com/encori/software_test/rriscan/SRR2814763.junction.rriScan.txt'
     ```
 
