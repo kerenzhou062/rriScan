@@ -20,7 +20,7 @@ The software package was tested on Linux systems with the following specificatio
 Written in C and C++, rriScan is highly efficient for analyzing RNA-RNA interactome sequencing data. After testing, most tasks are completed within 10 minutes.  
 
 # Installation
-Installing rriScan on a Linux server is straightforward. Use the following commands:
+* Installing rriScan on a Linux server is straightforward. Use the following commands:
     ```bash
     #Assume your installation directory is /username/software
     
