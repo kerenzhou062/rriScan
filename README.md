@@ -22,19 +22,19 @@ Written in C and C++, rriScan is highly efficient for analyzing RNA-RNA interact
 # Installation
 Installing rriScan on a Linux server is straightforward. Use the following commands:
 
-    ```shell
-    #Assume your installation directory is /username/software
-    
-    cd /username/software
-    
-    git clone https://github.com/kerenzhou062/rriScan.git
-    
-    cd ./rriScan
-    
-    sh install.sh
-    
-    export PATH=$PATH:/username/software/rriScan/bin
-    ```
+```shell
+#Assume your installation directory is /username/software
+
+cd /username/software
+
+git clone https://github.com/kerenzhou062/rriScan.git
+
+cd ./rriScan
+
+sh install.sh
+
+export PATH=$PATH:/username/software/rriScan/bin
+```
 
 # Input
 rriScan requires the following input files:
