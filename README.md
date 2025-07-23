@@ -23,7 +23,7 @@ Written in C and C++, rriScan is highly efficient for analyzing RNA-RNA interact
 Installing rriScan on a Linux server is straightforward. Use the following commands:
 
     ```bash
-    # Assume your installation directory is /username/software
+    #Assume your installation directory is /username/software
     
     cd /username/software
     
