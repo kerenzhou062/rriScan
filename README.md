@@ -22,7 +22,7 @@ Written in C and C++, rriScan is highly efficient for analyzing RNA-RNA interact
 # Installation
 Installing rriScan on a Linux server is straightforward. Use the following commands:
 
-    ```bash
+    ```shell
     #Assume your installation directory is /username/software
     
     cd /username/software
@@ -43,7 +43,7 @@ rriScan requires the following input files:
 
 * FAI index file: Specify using the `--fai` argument. Generate this file using `samtools`:
 
-    ```bash
+    ```shell
     #Example: Generate an FAI index for hg38.fa  
     
     samtools faidx hg38.fa
