@@ -63,13 +63,13 @@ Here’s the description of the columns in the output files:
 | `lChromStart`        | Start coordinate of left pair (0-base)
 | `lChromEnd`          | End coordinate of left pair
 | `lName`              | Name of left pair
-| `lScore`             | Score of left pair
+| `lScore`             | The quality of the alignment from left paired RNA
 | `lStrand`            | Strand of left pair
 | `rChrom`             | Chromosome name of right pair
 | `rChromStart`        | Start coordinate of right pair (0-base)
 | `rChromEnd`          | End coordinate of right pair
 | `rName`              | Name of right pair
-| `rScore`             | Score of right pair
+| `rScore`             | The quality of the alignment from right paired RNA
 | `rStrand`            | Strand of right pair
 | `lociNum`            | Chromosome name
 | `gapDist`            | Gap distance between pairs if they are in the same chromosome
@@ -82,7 +82,7 @@ Here’s the description of the columns in the output files:
 | `pairs`              | Base pairings
 | `rAlignSeq`          | Aligned sequence of right pair
 | `pairNum`            | The maximum continuous perfect pairings
-| `alignScore`         | Smith-Waterman score
+| `alignScore`         | The quality of the alignment between left paired and right paired RNA 
 | `loReadNum`          | Read number of left pair
 | `roReadNum`          | Read number of right pair
 
